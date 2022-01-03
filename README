@@ -1,0 +1,26 @@
+NAME
+			editor - a basic text editor (viewer at this point)
+
+SYNOPSIS
+			./editor [file]
+
+DESCRIPTION
+			editor is a text editor that can display text and change lines based 
+			on integer or single character commands. 
+
+			If file is not found, a new file with the given name will be created.
+
+USAGE
+			After reading a file into the editor program, the first line of the 
+			program will be printed then prompt for user input. Users can input
+			the following commands:
+
+			p		prints all lines of the file to standard output
+			
+			n		prints all lines of the file to standard output with line numbers
+
+			q		writes the file, frees memory, and exits the file.
+
+			Users can also enter a line number in range of the total number 
+			of lines in the file to change the current line. 
+
